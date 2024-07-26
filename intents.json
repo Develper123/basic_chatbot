@@ -1,0 +1,47 @@
+
+  {
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hello", "hi", "hey", "good morning", "good afternoon", "good evening", "greetings", "what's up?", "how is it going?"],
+      "responses": ["Hello!", "Hey there!", "What can I do for you today?", "Glad you're here!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later", "talk to you later", "gotta go"],
+      "responses": ["Bye!", "See you later!", "Have a great day!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thank you", "thanks", "appreciate it"],
+      "responses": ["You're welcome!", "Glad I could help!", "No problem!"]
+    },
+    {
+      "tag": "request_info",
+      "patterns": ["what can you do", "what are your capabilities", "what do you offer"],
+      "responses": ["I can assist you with various tasks like answering questions, providing information, and completing simple requests.  How can I help you today?"]
+    },
+    {
+      "tag": "small_talk",
+      "patterns": ["how are you", "what's new", "anything interesting happening"],
+      "responses": ["I'm doing well, thanks for asking!  Is there anything you'd like to chat about?"]
+    },
+    {
+      "tag": "feedback",
+      "patterns": ["I have some feedback", "Can I suggest something", "How can I improve your service?"],
+      "responses": [
+        "Thank you for your feedback! We appreciate it.",
+        "(Explain how feedback is used, offer options to elaborate)"
+      ]
+    },
+    {
+      "tag": "report_issue",
+      "patterns": ["I'm having a problem with [product/service]", "There's an issue with [function]", "Can you help me troubleshoot [problem]?"],
+      "responses": [
+        "I'm sorry to hear that. Let's see if we can fix the issue with [product].",
+        "(Offer troubleshooting steps, or direct user to support channels)"
+      ]
+    }
+  ]
+}
+
